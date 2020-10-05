@@ -2,11 +2,80 @@
 div {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; 
 }
-h1, h6 {
+.title {
     text-align: center;
+    font-size: 30px;
+    font-weight: 600;  
+}
+
+#desc {
+    text-align: center;
+    font-size: 20px;
 }
 
 body{
     background-image: url(https://hougumlaw.com/wp-content/uploads/2016/05/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg);
+    background-repeat: none;
+}
+
+.info{
+    text-align:center;
+    font-size: 20px;
+}
+
+.contain {
+    justify-content: center;
+}
+
+#buttons {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+#ocean { 
+    width: 200px; 
+    height: 200px; 
+    padding: 10px 16px; 
+    border-radius: 50px; 
+    font-size: 30px; 
+    text-align: center; 
+    margin: 10px;
+} 
+
+#nature { 
+    width: 200px; 
+    height: 200px; 
+    padding: 10px 16px; 
+    border-radius: 50px; 
+    font-size: 30px; 
+    text-align: center; 
+    margin: 10px;
+}
+
+#people { 
+    width: 200px; 
+    height: 200px; 
+    padding: 10px 16px; 
+    border-radius: 50px; 
+    font-size: 30px; 
+    text-align: center; 
+    margin: 10px;
+}
+
+#cities { 
+    width: 200px; 
+    height: 200px; 
+    padding: 10px 16px; 
+    border-radius: 50px; 
+    font-size: 30px; 
+    text-align: center; 
+    margin: 10px;
+}
+
+.navbar {
+    background-image: url(https://besthqwallpapers.com/Uploads/20-11-2018/72124/thumb2-red-abstract-background-lines-art-red-backgrounds.jpg);
 }
