@@ -1,5 +1,5 @@
   
-div {
+.div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap; 
@@ -16,26 +16,33 @@ div {
 }
 
 body{
-    background-image: url(https://hougumlaw.com/wp-content/uploads/2016/05/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg);
+    background-image: url(https://affordablehomeimprovementsnow.com/wp-content/uploads/2015/05/light-grey-abstract-background-hd-pictures-wallpapers-amagico-grey-background-wallpaper-bedroom-for-walls-homebase-designs-living-room-uk-next-border-1024x640.jpg);
     background-repeat: none;
+    background-size: cover;
 }
 
 .info{
     text-align:center;
     font-size: 20px;
+    border: 2px solid black;
+    padding: 5px;
+    width: 600px;
+    background-color: gray;
+    margin: 20px;
 }
 
 .contain {
+    display: flex;
     justify-content: center;
-}
+} 
 
 #buttons {
     display: flex;
-    width: 500px;
+    min-width: 500px;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    
+    justify-content: center;
 }
+
 #ocean { 
     width: 200px; 
     height: 200px; 
@@ -44,6 +51,8 @@ body{
     font-size: 30px; 
     text-align: center; 
     margin: 10px;
+    background-image: url("https://www.nationalgeographic.com/content/dam/science/2020/04/24/coral-reef/coral-reefs-2728211.jpg");
+    background-size: cover;
 } 
 
 #nature { 
@@ -54,6 +63,8 @@ body{
     font-size: 30px; 
     text-align: center; 
     margin: 10px;
+    background-image: url("https://www.expatica.com/app/uploads/sites/9/2017/06/Lake-Oeschinen-1200x675.jpg");
+    background-size: cover;
 }
 
 #people { 
@@ -64,6 +75,8 @@ body{
     font-size: 30px; 
     text-align: center; 
     margin: 10px;
+    background-image: url("https://lh3.googleusercontent.com/proxy/ypxOA7Cxe1fDq4lPrlzp1qNe7CmPQ2gsQwNPaqYvaDj3ZDBF-h9ZWtGtbwtR0Q5bhxNFKrVf2ex8DpuS41Gy6Sl9KjQ9hm_YnnhG_sySkGxuwCHvPomoqREUtKdbWlTpKXykLzISnfztk-n4aybh96J3h_vrqXJboRwt_mGUKBY");
+    background-size: cover;
 }
 
 #cities { 
@@ -74,8 +87,40 @@ body{
     font-size: 30px; 
     text-align: center; 
     margin: 10px;
+    background-image: url("https://cdn.aarp.net/content/dam/aarp/travel/destination-guides/2018/04/1140-travel-destination-san-francisco-main-page.imgcache.rev2e8bf9592b441099e8e7efb70e1c1e4b.web.650.370.jpg");
+    background-size: cover;
 }
 
 .navbar {
-    background-image: url(https://besthqwallpapers.com/Uploads/20-11-2018/72124/thumb2-red-abstract-background-lines-art-red-backgrounds.jpg);
+    background-image: url(https://katherinemichel.gitbooks.io/creating-a-steakhouse-website-using-wordpress/content/design/images/layout-and-color-scheme/wood-background.jpg);
+    
+}
+
+.navbar ul li a{
+    color: white;
+}
+
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .nav-link{
+      font-weight: bold;
+      text-shadow: 10px;
+  }
+.navbar-brand{
+    font-weight: bold;
+    color: white;
+}
+
+.titlecontainer {
+    display: flex;
+    justify-content: center;
+}
+.title{
+  text-shadow: 2px 2px 5px black;
+  color: white;
+  text-align: center;
 }
