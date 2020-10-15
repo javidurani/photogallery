@@ -38,7 +38,7 @@
 <hr>
 
 <div id="desc"><p>This is our photo gallery of the many aspects of our world</p></div>
-
+<div class="justifycarousel d-flex justify-content-center">
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -47,14 +47,14 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="https://allhdwallpapers.com/wp-content/uploads/2015/05/New-York-5.jpg" alt="New York">
+      <img class="d-block w-100" id="imagecarou" src="https://allhdwallpapers.com/wp-content/uploads/2015/05/New-York-5.jpg" alt="New York">
       <div class="carousel-caption d-none d-md-block">
         <h5>New York</h5>
         <p class = "sansserif">“There is something in the New York air that makes sleep useless.” – Simone de Beauvoir.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://wallpapercave.com/wp/jJSVg5V.jpg" alt="Great White">
+      <img class="d-block w-100" id="imagecarou" src="https://wallpapercave.com/wp/jJSVg5V.jpg" alt="Great White">
       <div class="carousel-caption d-none d-md-block">
         <h5>Great White Shark</h5>
         <p class = "sansserif">“There's nothing in the sea this fish would fear. Other fish run from bigger things. That's their instinct. But this fish doesn't run from anything. He doesn't fear.”
@@ -62,7 +62,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://www.wallpapergeeks.com/wp-content/uploads/2014/02/Quiet-Night-Lake-Wallpaper.jpg" alt="River">
+      <img class="d-block w-100" id="imagecarou"  src="https://www.wallpapergeeks.com/wp-content/uploads/2014/02/Quiet-Night-Lake-Wallpaper.jpg" alt="River">
       <div class="carousel-caption d-none d-md-block">
         <h5>River</h5>
         <p class = "sansserif">“A river is more than an amenity, it is a treasure.” —Oliver Wendell Holmes</p>
@@ -78,14 +78,14 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
+</div>
 <!--Buttons-->
 <div class="contain">
 <div id="buttons">
     <a href="oceangallery.html"><button type="button" class="btn btn-primary btn-circle btn-xl" id="ocean">Ocean Life</button></a>
-    <button type="button" class="btn btn-success btn-circle btn-xl" id="nature">Nature</button>
-    <button type="button" class="btn btn-secondary btn-circle btn-xl" id="people">People</button>
-    <button type="button" class="btn btn-secondary btn-circle btn-xl" id="cities">Cities</button>
+    <a href="naturegallery.html"><button type="button" class="btn btn-success btn-circle btn-xl" id="nature">Nature</button></a>
+    <a href="peoplegallery.html"><button type="button" class="btn btn-secondary btn-circle btn-xl" id="people">People</button></a>
+    <a href="citygallery.html"><button type="button" class="btn btn-secondary btn-circle btn-xl" id="cities">Cities</button></a>
 </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
