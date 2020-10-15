@@ -16,6 +16,9 @@
     text-align: center;
     font-size: 20px;
     color: white;
+    font-weight: 600;  
+    margin: 10px;
+    text-shadow: 2px 2px 5px black;
 }
 
 body{
@@ -172,10 +175,16 @@ body{
     border-radius: 10px;
 } 
 
+
+
 .buffer {
     height: 100px;
 }
 
 .buffer2 {
     height: 50px;
+}
+
+.buffer3 {
+    height: 20px;
 }
