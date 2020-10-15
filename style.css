@@ -145,6 +145,11 @@ body{
 
 .stefano, .javier {
     border: 5px solid black;
+
+}
+.javier {
+    height: 35%;
+    width: 35%;
 }
 
 .gallerycontain {
