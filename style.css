@@ -145,12 +145,14 @@ body{
 
 .stefano, .javier {
     border: 5px solid black;
+    max-height: 200px;
+    max-width: 200px;
 
 }
-.javier {
+/* .javier {
     height: 35%;
     width: 35%;
-}
+} */
 
 .gallerycontain {
     min-width: 350px;
